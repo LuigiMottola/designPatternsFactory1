@@ -5,8 +5,10 @@ public class Rhombus implements Shape{
     }
     @Override
     public void draw() {
+        System.out.println(ShapeEnum.RHOMBUS + "\n");
         int side = 5;
         drawRhombus(side);
+        System.out.println("\n ----------------------------------\n");
     }
     static void drawRhombus(int side) {
         for (int i = 0; i < side; i++) {

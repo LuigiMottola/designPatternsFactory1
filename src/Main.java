@@ -5,10 +5,7 @@ public class Main {
         Shape shape3 = ShapeFactory.generateShape(ShapeEnum.RHOMBUS);
 
         shape1.draw();
-        System.out.println("\n ----------------------------------\n");
         shape2.draw();
-        System.out.println("\n ----------------------------------\n");
         shape3.draw();
-        System.out.println("\n ----------------------------------\n");
     }
 }

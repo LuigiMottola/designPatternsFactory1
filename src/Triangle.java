@@ -6,8 +6,10 @@ public class Triangle implements Shape{
 
     @Override
     public void draw() {
+        System.out.println(ShapeEnum.TRIANGLE + "\n");
         int height = 5;
         drawTriangle(height);
+        System.out.println("\n ----------------------------------\n");
     }
     static void drawTriangle(int height) {
         for (int i = 0; i < height; i++) {
